@@ -7,7 +7,9 @@ int main(){
     int asciiValue = alphaV;
     if(asciiValue >64 && asciiValue< 97){
         printf("%c is capital alphabet",alphaV);
-    }else{
+    }else if(asciiValue >96 && asciiValue< 123){
         printf("%c is small alphabet",alphaV);
+    }else{
+        printf("it's not a alphabet");
     }
 }

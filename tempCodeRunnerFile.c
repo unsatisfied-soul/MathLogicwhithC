@@ -1,2 +1,4 @@
-int asciiValue = alpha;
-    // printf("%d", asciiValue);
+while(rowNumber !=0){
+    //     temValue = temValue /10;
+    //     sum = sum + rowNumber;
+    // }

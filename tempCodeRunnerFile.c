@@ -1,4 +1,1 @@
-while(rowNumber !=0){
-    //     temValue = temValue /10;
-    //     sum = sum + rowNumber;
-    // }
+  // (numberValue == temproalValue)? printf("it's palidrome Number") : printf("it's parindrome number");

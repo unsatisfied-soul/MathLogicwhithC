@@ -6,23 +6,19 @@ int main(){
     scanf("%d", &numberValue);
     tempValue = numberValue;
     
-        while(tempValue !=0){
-            multiplyNumber = tempValue %10;
-            for(i=1; i<=multiplyNumber;i++){
-                facNumber = facNumber*i;
-            }
-            sum+=facNumber;
-            if(facNumber >=0){
-                facNumber = 1;
-            }
+    while(tempValue !=0){
+        multiplyNumber = tempValue %10;
 
-            tempValue = tempValue /10;
+        for(i=1; i<=multiplyNumber;i++){
+            facNumber = facNumber*i;
         }
-        printf("%d",sum);
-    
-    if(numberValue == sum ){
-        printf("it's strong number");
-    }else{
-        printf("it's not strong number");
-    }
+        sum+=facNumber;
+
+        //condition
+        facNumber >0 ? facNumber = 1: facNumber;
+
+        tempValue = tempValue /10;
+    }   
+    (numberValue == sum )? printf("it's strong number"):
+    printf("it's not strong number");
 }

@@ -9,9 +9,8 @@ int main(){
     forNnumber = numberValue;
 
     while(forNnumber >0){
-        ++nNumber;
         forNnumber = forNnumber /10; 
-        
+        nNumber++;
     }
 
     while(temproalValue !=0){
@@ -20,6 +19,6 @@ int main(){
         temproalValue = temproalValue /10; 
         
     }
-    (numberValue == sum)? printf("%d is armstrong number", numberValue) : printf("%d is not armstrong number",sum);
-    return 0;
+    (numberValue == sum)? printf("%d is armstrong number", numberValue) : printf("%d is not armstrong number",numberValue);
+    
 }

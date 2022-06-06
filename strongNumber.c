@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int numberValue,multiplyNumber,i,facNumber=1,sum=0,strongNumber,tempValue;
+    int numberValue,multiplyNumber,i,facNumber=1,sum=0,tempValue;
     printf("enter a number:");
     scanf("%d", &numberValue);
     tempValue = numberValue;
